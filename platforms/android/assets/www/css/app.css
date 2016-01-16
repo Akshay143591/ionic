@@ -1,0 +1,7 @@
+/* Your app's CSS, go crazy, make it your own */
+.pointer {
+	cursor: pointer !important;
+}
+.ic-pull-right {
+	text-align: right !important;
+}

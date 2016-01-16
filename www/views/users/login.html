@@ -1,0 +1,16 @@
+<ion-content scrollbar-y="true" data-ng-controller="UserController">
+    <div class="list">
+        <label class="item item-input">
+            <span class="input-label">Username</span>
+            <input type="text" data-ng-model="username">
+        </label>
+        <label class="item item-input">
+            <span class="input-label">Password</span>
+            <input type="password" data-ng-model="pass">
+        </label>
+    </div>
+    <div class="padding text-center">
+        <button class="button button-block button-positive" data-ng-click="signIn(username, pass)">Sign In</button>
+        <a href="/#/signup" class="button button-positive">Sign Up</a>
+    </div>
+</ion-content>
